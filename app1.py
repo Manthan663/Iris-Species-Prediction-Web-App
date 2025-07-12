@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 def load_data():
-    # Load the iris dataset
     iris = load_iris()
     df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 
